@@ -4,6 +4,6 @@ Crie um programa que pergunte a idade do usuário e em seguida informe se este u
 
 old = int(input("Informe a sua idade:"))
 
-answer = (f"Você tem {old} anos, você ainda é menor de idade!", f"Você já tem {old} anos, você é maior de idade!")[old>=18]
+answer = "Você é maior de idade!" if old >= 18 else "Você é menor de idade!"
 
 print(answer)
