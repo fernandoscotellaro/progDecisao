@@ -4,7 +4,11 @@
 
 a = int(input("insira aqui um número inteiro de 3 algarismos:"))
 
-b = int (a / 100)
 
-if (a >= 100):
-    print(f"O algarismo da casa de centena desse número é: {b}")
+
+if (a >= 100 and num <= 999):
+    b = int(a / 100)
+    print(f"O algarismo da casa de centena desse número é: {b}!")
+
+else:
+    print(f"O valor informado não possui algarismos suficientes!")
