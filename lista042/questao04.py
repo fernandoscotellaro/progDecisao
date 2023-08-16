@@ -2,27 +2,27 @@
 4.	Fazer um algoritmo que peça um número de 1 a 7, e ao final, informe o dia da semana (por extenso) correspondente ao número que foi inserido. Informar também a mensagem “número inválido” quando o número inserido não corresponder à um dia da semana.
 '''
 
-num = int(input("Insira aqui um número de 1 a 7:"))
+nu = int(input("Insira aqui um número de 1 a 7:"))
 
-if (num == 1):
+if (nu == 1):
     print("O dia da semana é Domingo! :)")
 
-elif (num == 2):
+elif (nu == 2):
     print("O dia da semana é Segunda-feira! :)")
 
-elif (num == 3):
+elif (nu == 3):
     print("O dia da semana é Terça-feira! :)")
 
-elif (num == 4):
+elif (nu == 4):
     print("O dia da semana é Quarta-feira! :)")
 
-elif (num == 5):
+elif (nu == 5):
     print("O dia da semana é Quinta-feira! :)")
 
-elif (num == 6):
+elif (nu == 6):
     print("O dia da semana é Sexta-feira! :)")
 
-elif (num == 7):
+elif (nu == 7):
     print("O dia da Semana é sábado! :)")
 
 else:

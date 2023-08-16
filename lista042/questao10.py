@@ -10,13 +10,13 @@ nome = str(input("Insira aqui o seu nome:"))
 nota1 = float(input("Insira aqui o valor da sua primeira nota:"))
 nota2 = float(input("Insira aqui o valor da sua segunda nota:"))
 
-conta = (nota1 + nota2) / 2
+cont = (nota1 + nota2) / 2
 
-if (conta < 3.0):
-    print(f"Sua média é {conta}, Você está reprovado!")
+if (cont < 3.0):
+    print(f"Sua média é {cont}, Você está reprovado!")
 
-elif (conta > 3.0 and conta < 6.9):
-    print(f"Sua média é {conta}, Você está em prova final!")
+elif (cont > 3.0 and cont < 6.9):
+    print(f"Sua média é {cont}, Você está em prova final!")
 
 else:
-    print(f"Sua média é {conta}, Você está aprovado!")
+    print(f"Sua média é {cont}, Você está aprovado!")

@@ -3,13 +3,13 @@
 '''
 
 num = int(input("Insira aqui o primeiro número:"))
-num2 = int(input("Insira aqui o segundo número:"))
+num1 = int(input("Insira aqui o segundo número:"))
 
-if (num2 > num):
+if (num1 > num):
     print("O segundo número é maior do que o primeiro!")
 
-elif (num > num2):
+elif (num > num1):
     print("O primeiro número é maior do que o segundo!")
 
-elif (num2 == num):
+else:
     print("Os números são iguais!")

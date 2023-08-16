@@ -2,17 +2,17 @@
 8.	Fazer um algoritmo que pergunte 3 números, e ao final, guarde na variável o maior destes 3 números inseridos. O valor da variável maior deverá ser exibido ao final.
 '''
 
-numum = int(input("Insira um número:"))
-num2 = int(input("Insira outro número:"))
-num3 = int(input("Insira mais um número:"))
+a = int(input("Insira um número:"))
+b = int(input("Insira outro número:"))
+c = int(input("Insira mais um número:"))
 
-maior = numum
+maior = a
 
-if (numum < num2):
-    maior = num2
+if (a < b):
+    maior = b
 
-if (numum < num3):
-    maior = num3
+if (a < c):
+    maior = c
 
 print(f"O maior número é {maior}")
 
